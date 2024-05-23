@@ -6,7 +6,7 @@ type LayoutProps = {
   children: ReactNode
 }
 
-export default function MarketingLayout({children}: LayoutProps) {
+export default function MarketingLayout({ children }: LayoutProps) {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
